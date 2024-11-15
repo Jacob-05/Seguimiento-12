@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0bbeaf;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #beece8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contactsList {
+    margin-top: 20px;
+}
+
+.contact-card {
+    background-color: #0885f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.edit, button.delete {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+button.edit:hover {
+    background-color: #0bbeaf;
+}
+
+button.delete:hover {
+    background-color: crimson;
+}
